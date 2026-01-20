@@ -14,11 +14,11 @@ function newPrompt() {
     alert("Estive em " + cidade + " e me lembrei de você!");
 }
 
-function soma() {
+function multiplicacao() {
     let num1 = parseInt(prompt("Digite um número inteiro qualquer: "));
     let num2 = parseInt(prompt("Digite um outro número inteiro qualquer: "));
 
-    let resultado = parseInt(num1 + num2);
+    let resultado = parseInt(num1 * num2);
 
     alert("O resultado da soma dos números fornecidos será igual a: " + resultado);
 }
